@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+
+li{
+	display: inline-block;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+li:hover{
+	outline: dotted yellow;
+	background: red
+}
+
+.boton{
+	background-color: orange;
+	border: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	cursor: pointer;
+	margin-left: 150px;
+	margin-top: 35px;
+}
+
+.fondoa{
+	background-color: #FFD700;
+	width: 1200px;
+	height: 700px;
+	color: white;
+
+}
+
+.textob{
+	margin-top: 150px;
+}
+
+.fondog{
+	background-color: #D0D3CF;
+	width: 1200px;
+
+}
+
+.textoc{
+	color: grey;
+	margin-top: 20px;
+}
+
+.imagenes{
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+}
+
+.fondocaj{
+	background-color: white;
+	width: 400px;
+	height: 540px;
+	border-radius: 5px;
+	margin-left: 140px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+footer{
+	background-color: black;
+	color: white;
+	height: 70px;
+	width: 1200px;
+	margin-left: 32px;
+}
+
+.textofot{
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+h2{
+	margin-top: 10px;
+}
+
+img:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+*{
+	font-family: 'Lobster', cursive;
+}
